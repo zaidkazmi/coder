@@ -195,6 +195,12 @@ print(name.lstrip() + dots) #to remove left side space we use lstrip
 print(name.rstrip() + dots) #to remove right side space we use rstrip
 print(name.replace(" ","") + dots) #to remove all the space
 
+# Lecture 38- center method in python
+name=input("enter your name: ")
+print(name.center(len(name)+8, "*"))
+
+
+
 # Lecture 40 - Assignment operatiors
 name = "harsh"
 name = name + "it" #name  += "it"
